@@ -23,8 +23,10 @@ int main()//Main fuction
 		else
 		{
 			cout<<"Yaay!!You Guessed the correct number"<<endl;
+			cout<<"Your number of tries :"<<tries<<endl;
 		}
 		
 	}
 	while(guess!=num);
+	return 0;
 }
